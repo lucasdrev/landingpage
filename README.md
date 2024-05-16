@@ -1,2 +1,2 @@
 # landingpage
- Página criada por Lucas Drudi
+ Página criada por mim
