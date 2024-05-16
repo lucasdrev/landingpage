@@ -43,19 +43,19 @@ a{
 }
 
 a:hover{
-    color: var(--cor01);
+    color: var(--cor0);
     transition: .3s all;
 }
 
 .conta{
-    border: 2px solid var(--cor01);
+    border: 2px solid var(--cor0);
     padding: 13px;
     border-radius: 20px;
     font-weight: bold;
 }
 
 .conta:hover{
-    background-color: var(--cor01);
+    background-color: var(--cor0);
     color: #fff;
     transition: .3s all;
 }
