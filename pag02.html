@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | landingpage</title>
+    <title>Login | Landing Page</title>
+    <link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon">
     <style>
-
-        @media screen and (max-width: 700px){ 
-            body{
-                background-color: #fff;
-            }
-        }
 
         @font-face {
             font-family: 'Graphik-Regular';
             src: url('fonts/GraphikRegular.otf') format('opentype');
+        }
+
+        @media screen and (max-width: 700px) {
+
+            body{
+                background-color: #fff;
+                background-image: inherit;
+                max-width: 200px;
+                
+            }
+
+            main{
+                background-color: #fff;
+               
+            }
         }
 
         :root{
@@ -27,7 +37,7 @@
         }
 
         body{
-            background-color: #000;
+            background-color: #000000;
             background-image: url('images/1704720890-nu_core_login.png');
             background-repeat: no-repeat;
             background-size: 50%;
@@ -48,6 +58,7 @@
             font-family: 'Graphik-Regular';
             font-size: 1.7em;
             color: var(--color0);
+            padding-bottom: 20px;
         }
         .nulogo{
             width: 44px;
@@ -71,11 +82,11 @@
             color: var(--color01);
             font-size: 1em;
             pointer-events: none;
-            transition: .5s all;
+            transition: .5s ;
         }
 
         input:focus ~ label,
-        input:focus ~ :valid{
+        input:valid ~ label{
             top: -5px;
         }
         .txt_field input{
@@ -84,7 +95,6 @@
             background: transparent;
             border: none;
             outline: none;
-            font-size: 1em;
             padding: 0 35px 0 5px;
             color: #fff;
             font-size: 1.3em;
@@ -145,7 +155,7 @@
             <h1 class="title">Acesse sua conta</h1>
         <form>
             <div class="txt_field">
-                <input type="email" required>
+                <input type="text" required>
                 <label for="">CPF</label>
             </div>
                 
